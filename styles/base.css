@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #DDA15E;
+    color: #fff;
+    font-size: .75em;
+}
+header h1{
+    margin-left: 30px;
+}
+header img{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+
+    max-width: 20%;
+
+}
+nav{
+    background-color: #606C38;
+    margin: 0 auto;
+}
+nav ul{
+    padding: 0px;
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover{
+    border: 1px solid #fff;
+}
+main{
+    margin: 0 auto;
+    max-width: 80%;
+    display: grid;
+
+
+}
+main h2{
+    height: 10%;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: grey;
+    font-size: .8em;
+
+}
+.card{
+    grid-column: 1;
+    margin-bottom: 5%;
+}
+
+section{
+    border: 1px solid 	#5A5A5A;
+    border-radius: 10px;
+}
+h3{ 
+    background-color: #BC6C25;
+    color: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2%;
+    text-align: center;
+}
+.card ul{
+    list-style-type: none;
+    font-size: .8em;
+    padding: 10px;
+    color: 	#5A5A5A;
+}
+.card p{
+    text-align: center;
+    margin: 10px;
+    color: 	#5A5A5A;
+}
+footer{
+    text-align: center;
+    background-color: #606C38;
+    color: white;
+}
+footer p{
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 80%;
+    font-size: 1em;
+}
