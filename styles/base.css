@@ -1,3 +1,4 @@
+/*Pallette: https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4*/
 *{
     margin: 0;
 }
@@ -9,7 +10,7 @@ header{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    background-color: #DDA15E;
+    background-color: #4A4E69;
     color: #fff;
     font-size: .75em;
 }
@@ -25,7 +26,7 @@ header img{
 
 }
 nav{
-    background-color: #606C38;
+    background-color: #C9ADA7;
     margin: 0 auto;
 }
 nav ul{
@@ -40,7 +41,10 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    border: 1px solid #fff;
+    border: 1px solid #22223B;
+}
+.active{
+    background-color: #9A8C98;
 }
 main{
     margin: 0 auto;
@@ -68,11 +72,11 @@ section{
     border-radius: 10px;
 }
 h3{ 
-    background-color: #BC6C25;
+    background-color: #C9ADA7;
     color: #FFF;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 2%;
+    padding: 5px;
     text-align: center;
 }
 .card1 ul{
@@ -88,19 +92,17 @@ h3{
 
 }
 footer{
-    position: absolute;
-    bottom: 0;
+
     width: 100%;
     text-align: center;
-    background-color: #606C38;
+    background-color: #4A4E69;
     color: white;
-
+    padding: 5px;
+    
 }
 footer p{
     margin-top: 20px;
     margin: 0 auto;
     max-width: 80%;
     font-size: 1em;
-
-    
 }
