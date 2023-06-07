@@ -11,7 +11,7 @@ header{
     justify-content: center;
     margin: 0 auto;
     background-color: #4A4E69;
-    color: #fff;
+    color: white;
     font-size: .75em;
 }
 header h1{
@@ -35,7 +35,7 @@ nav ul{
 }
 nav a{
     display: block;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -57,7 +57,7 @@ main h2{
     text-decoration: underline;
     margin-top: 5%;
     margin-bottom: 5%;
-    color: grey;
+    color: #808080;
     font-size: .8em;
 
 }
@@ -73,7 +73,7 @@ section{
 }
 h3{ 
     background-color: #C9ADA7;
-    color: #FFF;
+    color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 5px;
