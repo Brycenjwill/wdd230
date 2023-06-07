@@ -46,8 +46,6 @@ main{
     margin: 0 auto;
     max-width: 80%;
     display: grid;
-
-
 }
 main h2{
     height: 10%;
@@ -59,7 +57,7 @@ main h2{
     font-size: .8em;
 
 }
-.card{
+.card1, .card2{
     grid-column: 1;
     margin-bottom: 5%;
 }
@@ -76,13 +74,13 @@ h3{
     padding: 2%;
     text-align: center;
 }
-.card ul{
+.card1 ul{
     list-style-type: none;
     font-size: .8em;
     padding: 10px;
     color: 	#5A5A5A;
 }
-.card p{
+.card2 p{
     text-align: center;
     margin: 10px;
     color: 	#5A5A5A;
