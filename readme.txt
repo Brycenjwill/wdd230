@@ -1,1 +1,1 @@
-This repository represents my work ihn WDD 230.
+This repository represents my work in WDD 230.
