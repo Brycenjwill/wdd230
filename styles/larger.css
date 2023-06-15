@@ -1,4 +1,19 @@
 @media (min-width: 640px) {
+	nav{
+		background-color: #C9ADA7;
+		margin: 0 auto;
+	}
+	nav ul{
+		padding: 0px;
+		list-style-type: none;
+	}
+	nav a{
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 1rem;
+		text-decoration: none;
+	}
 	nav ul {
 		display: flex;
 	}
@@ -49,6 +64,9 @@
 		width: 100%;
 		max-height: 12%;
 
+	}
+	#ham {
+		display:none;
 	}
 
 }

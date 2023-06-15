@@ -34,7 +34,7 @@ nav ul{
     list-style-type: none;
 }
 nav a{
-    display: block;
+    display: flex;
     color: black;
     text-align: center;
     padding: 1rem;
@@ -43,8 +43,26 @@ nav a{
 nav a:hover{
     border: 1px solid #22223B;
 }
+#ham {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #C9ADA7;
+	color: #000;
+ 	position: fixed;
+	right: 0;
+	top: 0;
+}
+#ham::before {
+	content: "☰";
+}
+
+#ham.open::before {
+	content: " X ";
+}
 .active{
     background-color: #9A8C98;
+    color: white;
 }
 main{
     margin: 0 auto;
@@ -105,4 +123,13 @@ footer p{
     margin: 0 auto;
     max-width: 80%;
     font-size: 1em;
+}
+.nav li{
+    display: none;
+}
+.open li{
+    display: block;
+}
+.open li a {
+	display: block;
 }
