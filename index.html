@@ -21,6 +21,7 @@
 </head>
 <body>
     <header>
+        <button id="night"> Night Mode </button>
         <img src="images/profile.png" alt="Profile Photo">
         <h1>Brycen J Williams</h1>
     </header>
@@ -35,9 +36,9 @@
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card1" >
+        <div class="card1" >
             <h3>Learning Activities</h3>
-            <ul>
+            <ul id="list">
                 <li>Week 01:</li>
                 <li>Week 02: <a href="https://codepen.io/Brycen-Williams/pen/zYMrZLQ">Hamburger </a><a href="week02/design.html">Design </a><a href="week02/bom.html">DOM </a></li>
                 <li>Week 03:</li>
@@ -45,19 +46,21 @@
                 <li>Week 05:</li>
                 <li>Week 06:</li>
             </ul>
-        </section>
-        <section class="card2">
+        </div>
+        <div class="card2">
             <h3>Information</h3>
-            <p>[weather]</p>
-            <p>sunshine</p>
-            <p>visits</p>
-        </section>
+            <p class="info">[weather]</p>
+            <p class="info">sunshine</p>
+            <p class="info">visits</p>
+        </div>
     </main>
     <footer>
+        
         <p id="year"></p>
         <p>Brycen Williams</p>
         <p>United States of America</p>
         <p id="lastModified">modified</p>
+    </div>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>

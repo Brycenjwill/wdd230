@@ -25,6 +25,13 @@ header img{
     max-width: 20%;
 
 }
+header button{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    
+}
+
 nav{
     background-color: #C9ADA7;
     margin: 0 auto;
@@ -85,7 +92,7 @@ main h2{
     
 }
 
-section{
+div{
     border: 1px solid 	#5A5A5A;
     border-radius: 10px;
 }
@@ -124,7 +131,7 @@ footer p{
     max-width: 80%;
     font-size: 1em;
 }
-.nav li{
+nav li{
     display: none;
 }
 .open li{
@@ -132,4 +139,7 @@ footer p{
 }
 .open li a {
 	display: block;
+}
+li{
+    list-style-type: none;
 }
