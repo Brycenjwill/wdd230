@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #354F52 ;
+}
+header{
+    width: 100%;
+    background-color: #52796F;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+}
+nav{
+
+    background-color: #354F52 ;
+    text-align: center;
+    
+}
+nav button{
+    float: right;
+    width: 10%;
+    padding: .5em;
+    background-color: #52796F;
+    
+    
+}
+nav a{
+    color: white;
+}
+nav li{
+    display: none;
+    list-style: none;
+    padding: 1em;
+}
+nav a:link{
+    text-decoration: none;
+}
+.open li{
+    display: block;
+    background-color: #354F52 ;
+}
+.open li a {
+	display: block;
+    background-color: #354F52 ;
+}
+#hero{
+    width: 100%;
+    ;
+}
+
+main p{
+    background-color: white;
+}
+main a{
+    background-color: white;
+}
+#calltoaction{
+    margin: 5px auto;
+    width: 80%;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    position: relative;
+    top: -6em;
+}
+#calltoaction a {
+    text-decoration: none;
+}
+#currentEvents{
+    margin: 5px auto;
+    width: 80%;
+    text-align: center;
+}
+.weather{
+    margin: 5px auto;
+    width: 80%;
+    text-align: center;
+}
+.spotlights{
+    margin: 5px auto;
+    width: 80%;
+    text-align: center;
+}
+footer *{
+    background-color: #52796F;
+    text-align: center;
+    color: white;
+}
+footer a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}

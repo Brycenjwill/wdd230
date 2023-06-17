@@ -1,0 +1,26 @@
+@media (min-width: 640px) {
+    nav button{
+        display: none;
+    }
+    nav li{
+        display: block;
+        font-size: 1em;
+    }
+    nav ul{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    nav ul li{
+        display: inline-block;
+        
+    }
+    nav a{
+        padding: 1rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
