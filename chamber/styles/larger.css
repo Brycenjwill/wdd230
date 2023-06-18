@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 500px) {
     nav button{
         display: none;
     }
@@ -18,5 +18,21 @@
     nav a{
         padding: 1rem;
     }
-
+    .maincontent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #calltoaction{
+        grid-column: 2;
+    }
+    #currentEvents{
+        grid-column: 1;
+    }
+    .weather{
+        grid-column: 2;
+    }
+    .spotlights{
+        grid-column: 3;
+    }
 }
