@@ -29,7 +29,7 @@ header button{
     position: absolute;
     right: 0;
     top: 10%;
-    
+    background-color: #C9ADA7;
 }
 
 nav{
@@ -85,6 +85,18 @@ main{
     width: 100%;
     height: auto;
   }
+.heroLabel{
+    border: none;
+    position: absolute;
+    top: 190px;
+    left: 15%;
+    color: black;
+    background-color: rgb(255, 255, 255, .8);
+    border-radius: 0;
+    font-size: .8em;
+    text-decoration: bold;
+    width: 24%;
+}
 main h2{
     height: 10%;
     text-align: center;
