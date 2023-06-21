@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 660px) {
 
 	nav{
 
@@ -36,21 +36,29 @@
 		font-size: 4em;
 	}
 	header button{
+		top: 15%;
 		left: 0;
-		top: 0;
+		background-color: #C9ADA7;
+
 	}
 	main{
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 10% 90%;
+		grid-template-rows: 1fr 10% 50%fr;
 		grid-gap: 20px;
 	}
-	main h2{
+	.hero{
+		grid-column: 1/4;
 		grid-row: 1;
+		margin-top: 5%;
+	}
+	main h2{
+		grid-row: 2;
 		text-align: left;
 		font-size: 2em;
 		grid-column: 1/3;
 	}
 	.card1, .card2 {
+		
 		margin-bottom: 20px;
 		box-shadow: 5px 5px 10px grey,
 		-5px -5px 10px grey;
@@ -58,7 +66,7 @@
 	}
 	.card1{
 		grid-column: 1/3;
-		grid-row: 2;
+		grid-row: 3s;
 	}
 	.card1 ul{
 		list-style-type: none;
@@ -71,14 +79,16 @@
 	}
 	.card2{
 		grid-column: 3;
-		grid-row: 2;
+		grid-row: 3;
 	}
 	footer{
-		position: absolute;
-		bottom: 0;
 		width: 100%;
 		max-height: 12%;
 
+	}
+	footer p{
+		padding: .5em;
+		font-size: 1.2em;
 	}
 	#ham{
 		display: none;

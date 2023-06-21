@@ -76,6 +76,15 @@ main{
     max-width: 80%;
     display: grid;
 }
+.hero{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 5%;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+  }
 main h2{
     height: 10%;
     text-align: center;
@@ -84,6 +93,7 @@ main h2{
     margin-bottom: 5%;
     color: #808080;
     font-size: .8em;
+    
 
 }
 .card1, .card2{
