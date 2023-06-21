@@ -110,6 +110,15 @@ h3{
     padding: 10px;
     color: 	#5A5A5A;
 }
+.card1 a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.card1 a:hover{
+    color: teal;
+    
+}
 .card2 p{
     text-align: center;
     margin: 10px;
