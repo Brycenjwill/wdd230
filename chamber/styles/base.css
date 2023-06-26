@@ -81,6 +81,36 @@ main a{
     width: 80%;
     text-align: center;
 }
+
+.sidebar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Discoverphotos{
+    margin-top: 30%;
+    grid-column: 2;
+    display: grid;
+    
+
+}
+.Discoverphotos img{
+    margin: 5%;
+    max-width: 100%;
+}
+.parkPhoto{
+    grid-row: 1;
+}
+.longwoodPhoto{
+    grid-row: 2;
+}
+.Discoverinfo{
+    grid-row: 1;
+}
+.header{
+    
+    grid-row: 1;
+}
+
 footer *{
     background-color: #52796F;
     text-align: center;
